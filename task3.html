@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="task3.css">
+    <style>
+body {
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="background-color:red;">Temperature Converter</h1>
+
+        <div class="input-group">
+          <label>Enter Temperature :</label>
+            <input type="text" id="temperature" placeholder="Enter temperature">
+<br>
+<br>  <label>
+Type :
+</label>      <select id="unit">
+
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </div>
+
+        <button id="convertBtn">Convert</button>
+
+        <div id="result" class="result"></div>
+
+    </div>
+
+    <script src="task3.js"></script>
+</body>
+</html>
